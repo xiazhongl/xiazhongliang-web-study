@@ -1,0 +1,18 @@
+ /*公用*/
+.conmwidth{width: 1000px; margin-left: auto; margin-right: auto}
+.leftarea{float: left;}
+.rightarea{float: right;}
+/*top*/
+.topbar{height: 31px; background-color: #f7f7f7; line-height: 31px;}
+.collection{font-weight: bold;}
+.topbar a:hover{color: red;}
+/*logo*/
+.logobar{height: 85px; background-color: #1d7ad9;}
+.logo{padding-left: 41px;  padding-top: 13px;}
+.logo img{width: 180px; height: 60px;}
+.search_box{width: 430px; padding-top: 23px; padding-left: 185px;}
+.search_text{width: 350px; height: 35px; line-height: 35px; padding: 0; background-color: #fff;}
+.seach_btn{width: 70px; height: 35px; font-size: 14px; background-color: #ff8c00; color: #fff;}
+.search_btn{width: 70px; height: 35px; font-size: 14px; font-family:"MiacrosoftYaHei","微软雅黑";background-color: #919111; color: #fff;}
+
+
