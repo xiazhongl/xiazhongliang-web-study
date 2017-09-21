@@ -2,6 +2,8 @@
 .conmwidth{width: 1000px; margin-left: auto; margin-right: auto}
 .leftarea{float: left;}
 .rightarea{float: right;}
+.chu{display: block;}
+.yin{display: none;}
 /*top*/
 .topbar{height: 31px; background-color: #f7f7f7; line-height: 31px;}
 .collection{font-weight: bold;}
@@ -23,7 +25,7 @@
 .navbox{height: 35px;background-color: #1C0AC2; color: #fff;}
 .shopclass{width: 190px; position: relative;}
 .shopclass h3{text-align: center;line-height: 35px;}
-.nav,.shopclass{font-family:"MiacrosoftYaHei","微软雅黑";}
+.nav,.shopclass h3{font-family:"MiacrosoftYaHei","微软雅黑";}
 .nav{ line-height: 35px;}
 .nav li{float: left;}
 .nav a{height: 35px;display: inline-block;padding: 0 35px; color: #fff;}
@@ -34,11 +36,20 @@
 .sjopClass_item dt{height: 22px;}
 .sjopClass_item .b{font-family:"MiacrosoftYaHei","微软雅黑";font-size: 14px;font-weight: bold;}
 .sjopClass_item a{color: #fff;}
+.sjopClass_item a:hover{text-decoration: underline;}
 .sjopClass_item .alink{width: 48px; height: 20px;text-decoration: underline;}
+
+/**/
+.sjopClass_active{background-color: #fff; border-left: #1C0AC2 solid 1px;}
+.sjopClass_active dt{ background: none;}
+.sjopClass_active a{ color: #050505;}
+.sjopClass_active alink{color: #fff; text-decoration: none;}
 /*弹出列表*/
-.shopclass_list{width: 568px;height: 378px; position: absolute; left: 650px; top: 151px;border: #ccc solid 1px;}
+.shopclass_list{width: 568px; position: absolute; left: 650px; top: 151px;border: #ccc solid 1px;}
 .shoplist_item {padding: 10px 0; border-bottom:#ccc solid 1px;}
 .shopclass_cone { padding: 0 10px;}
 .shoplist_item dt{color: #1C0AC2;font-weight: bold; height:  24px;line-height: 24px;line-height: 24px;}
 .shoplist_item dd{padding-left: 68px; margin-top: -24px; line-height: 24px;}
 .shoplist_item dd a{margin-left: 12px;}
+.shoplinst_ilnks {padding: 15px 0;}
+.shoplinst_ilnks a{color: #fff; background-color: #2511FF;font-size: 12px;height: 26px; line-height: 26px;display: inline-block;padding: 0px 14px 0px 10px;margin-right:10px;}
