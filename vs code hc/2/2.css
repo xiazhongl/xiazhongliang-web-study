@@ -10,9 +10,35 @@
 .logobar{height: 85px; background-color: #1d7ad9;}
 .logo{padding-left: 41px;  padding-top: 13px;}
 .logo img{width: 180px; height: 60px;}
-.search_box{width: 430px; padding-top: 23px; padding-left: 185px;}
-.search_text{width: 350px; height: 35px; line-height: 35px; padding: 0; background-color: #fff;}
-.seach_btn{width: 70px; height: 35px; font-size: 14px; background-color: #ff8c00; color: #fff;}
+/*搜索*/
+.search_box{width: 430px; padding-top: 23px; padding-left: 115px;}
+.search_text{width: 350px; height: 14px; line-height: 14px; padding:11px 5px 10px ; background-color: #fff;}
+.search_btn{width: 70px; height: 35px; font-size: 14px; background-color: #ff8c00; color: #fff;}
 .search_btn{width: 70px; height: 35px; font-size: 14px; font-family:"MiacrosoftYaHei","微软雅黑";background-color: #919111; color: #fff;}
-
-
+/*购物车*/
+.shopcar{width: 145px; height: 35px;background-color: #919111; margin-top: 23px;margin-right: 59px;}
+.shoptext{ height: 100%; width: 87px; font-size: 14px; font-family: "MiacrosoftYaHei","微软雅黑"; line-height: 35px; margin-left: 35px; color: #fff; border-right: #e27a00 solid 1px;}
+.shopnum{width: 56px;height: 35px;border-left: #e27a00 solid 1px; font-family:"MiacrosoftYaHei","微软雅黑";color: #fff;}
+/*导航*/
+.navbox{height: 35px;background-color: #1C0AC2; color: #fff;}
+.shopclass{width: 190px; position: relative;}
+.shopclass h3{text-align: center;line-height: 35px;}
+.nav,.shopclass{font-family:"MiacrosoftYaHei","微软雅黑";}
+.nav{ line-height: 35px;}
+.nav li{float: left;}
+.nav a{height: 35px;display: inline-block;padding: 0 35px; color: #fff;}
+.nav .active{background-color: #2511FF;}
+/*弹出导航*/
+.shopClass_show{background-color: #1d7ad9;position: absolute;left: 0;top: 35px;width: 100%;}
+.sjopClass_item{padding:14px 10px; border-bottom: #4E50D1 solid 1px;}
+.sjopClass_item dt{height: 22px;}
+.sjopClass_item .b{font-family:"MiacrosoftYaHei","微软雅黑";font-size: 14px;font-weight: bold;}
+.sjopClass_item a{color: #fff;}
+.sjopClass_item .alink{width: 48px; height: 20px;text-decoration: underline;}
+/*弹出列表*/
+.shopclass_list{width: 568px;height: 378px; position: absolute; left: 650px; top: 151px;border: #ccc solid 1px;}
+.shoplist_item {padding: 10px 0; border-bottom:#ccc solid 1px;}
+.shopclass_cone { padding: 0 10px;}
+.shoplist_item dt{color: #1C0AC2;font-weight: bold; height:  24px;line-height: 24px;line-height: 24px;}
+.shoplist_item dd{padding-left: 68px; margin-top: -24px; line-height: 24px;}
+.shoplist_item dd a{margin-left: 12px;}
