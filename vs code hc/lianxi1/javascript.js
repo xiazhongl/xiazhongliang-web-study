@@ -59,8 +59,86 @@ var ad1=document.getElementById("id1")
 ad1.style.color="red";
 //显示和隐藏
 function xians(){
-    document.getElementById("id2").style.display="none";
+    document.getElementById("id2").style.display="block";
 }
 function yinc(){
-    document.getElementById("id2").style.display="block";
+    document.getElementById("id2").style.display="none";
+}
+//特殊符号++和--
+var dd=10;
+dd--;
+dd++;
+document.write(dd+"<br/>");
+//逻辑操作符&&:意思是并且
+var qq,ww;
+qq=60;
+ww=100;
+if(qq>=ww && qq==ww ){
+     document.write("厉害！")
+}else{
+     document.write("加油啊")
+}
+//逻辑操作符||:意思是或者
+if(qq<=ww || qq==ww ){
+    document.write("厉害！")
+}else{
+    document.write("加油啊<br/>")
+}
+//数组属性
+var ee=new Array(10,20,30,40,50,60,70,80,90,100);
+document.write(ee.length+"<br/>");
+ee[15]=160;
+document.write(ee.length+"<br/>");
+//switch语句
+var r=8;
+switch (r) {
+    case 1:
+    case 2:
+    document.write("还不错");
+        break;
+    case 3:
+    case 4:
+    document.write("有点差");
+    break;
+    default:
+    document.write("继续努力<br/>")
+}
+//for循环
+var w=1;
+for(w=1;w<=3;w++){
+  document.write("第"+w+"个球<br/>")
+}
+//whlie循环
+var t=0;
+while(t<=6){
+   document.write("第"+t+"个鸡蛋<br/>")
+   t=t+1;
+}
+//do--while循环
+tt=0;
+do{
+    document.write("第"+tt+"个石榴<br/>");
+    tt=tt+1;
+}while(tt<=3);
+//有参数的函数
+function qqq(x,y){
+   sun=x+y;
+   document.write(sun);
+}
+qqq(2,3);
+//鼠标经过
+function v(){
+    alert("经过了，好厉害！")
+}
+//鼠标移开
+function vv(){
+    alert("不要移开")
+}
+//光标聚焦
+function vvv(){
+    document.write("请输入你的姓名")
+}
+//光标失焦
+function vvvv(){
+    alert("请输入了密码后再离开")
 }
