@@ -1,20 +1,21 @@
-// var aa = {  // 定义变量，每个值后面要用逗号隔开
-//   name: 'xiazhongliang',    // 定义一个name并赋值
-//   age: 19,
-//   nan:[1, 2, 3, 4], 
-//   sex: 'nan',
-//   obj: {    // 定义一个对象
-//     name: 'xiazhongliang',  // 给对象赋值
-//     age: 20,
-//     nan: [1, 2, 3, 4],
-//     sex: 'nan'
-//   },
-//   add: function (name) {    // 定义函数
-//     console.log(name) 
-//   },
-//   key:'value',
-//   'editor.fomt':'AAAA'  // 前面那个key都是字符串
-// }
+var aa = {  // 定义变量，每个值后面要用逗号隔开
+  name: 'xiazhongliang',    // 定义一个name并赋值
+  age: 19,
+  nan:[1, 2, 3, 4], 
+  sex: 'nan',
+  obj: {    // 定义一个对象
+    name: 'xiazhongliang',  // 给对象赋值
+    age: 20,
+    nan: [1, 2, 3, 4],
+    sex: 'nan'
+  },
+  add: function (name) {    // 定义函数
+    console.log(name) 
+  },
+  key:'value',
+  'editor.fomt':'AAAA'  // 前面那个key都是字符串
+}
+
 
 // console.log(aa.name)
 // // console.log(aa.age)
