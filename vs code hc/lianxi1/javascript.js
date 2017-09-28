@@ -139,6 +139,71 @@ function vvv(){
     document.write("请输入你的姓名")
 }
 //光标失焦
-function vvvv(){
+function nam(){
     alert("请输入了密码后再离开")
+}
+//文本内容选中
+function Conselect(){
+    alert("你选中了这些文字")
+}
+//四舍五入
+document.write(Math.round(0.1)+"<br/>");
+document.write(Math.round(2.8)+"<br/>");
+document.write(Math.round(3.6)+"<br/>");
+document.write(Math.round(3.2)+"<br/>");
+document.write(Math.round(9.8)+"<br/>");
+//获取随机数
+document.write((Math.random())*10+"<br/>");
+//数组连接
+var concat=new Array(3);
+concat[0]=1;
+concat[1]=2;
+concat[2]=3;
+document.write(concat.concat(4,5,6)+"<br/>")
+document.write(concat+"<br/>")
+//分割开
+var join=new Array(3);
+join[0]=1;
+join[1]=2;
+join[2]=3;
+document.write(join.join(".")+"<br/>");
+//颠倒顺序
+var rev=new Array(3);
+rev[0]=1;
+rev[1]=2;
+rev[2]=3;
+document.write(rev+"<br/>");
+document.write(rev.reverse()+"<br/>");
+//选定数组
+var sli=new Array(6);
+sli[0]=1;
+sli[1]=2;
+sli[2]=3;
+sli[3]=4;
+sli[4]=5;
+sli[5]=6;
+sli[6]=7;
+document.write(sli+"<br/>");
+document.write(sli.slice(2,4)+"<br/>");
+document.write(sli+"<br/><hr/>");
+//history对象
+var his=window.history.length;
+document.write(his);
+//getElementsByName
+function getnum(){
+    var mynode=document.getElementsByName("myt");  
+    alert(mynode.length);
+  }
+//getElementsByTagName
+var tag=document.getElementsByTagName('li<br/>');
+li=tag[0];
+document.write(tag.length);
+document.write(tag.innerHTML);
+//getAttribute
+function bute(){
+    var link=document.getElementById("bute");
+    var ilnk1=link.getAttribute("id");
+    var ilnk2=link.getAttribute("title");
+    document.write(ilnk1+"<br/>");
+    document.write(ilnk2);
 }
