@@ -193,12 +193,14 @@ document.write(his);
 function getnum(){
     var mynode=document.getElementsByName("myt");  
     alert(mynode.length);
+    console.log(mynode);
   }
+  getnum();
 //getElementsByTagName
-var tag=document.getElementsByTagName('li<br/>');
+var tag=document.getElementsByTagName('li');
 li=tag[0];
 document.write(tag.length);
-document.write(tag.innerHTML);
+console.log(tag[0].innerHTML);
 //getAttribute
 function bute(){
     var link=document.getElementById("bute");
