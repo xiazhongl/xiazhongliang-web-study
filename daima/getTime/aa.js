@@ -12,3 +12,5 @@ function showTime(){
     document.getElementById('show').innerHTML=('年'+nian+'月'+yue+'日'+ri+'小时'+xiaos+'分钟'+fenz+'秒'+miao);
     setTimeout(showTime,1000);
 }
+
+
