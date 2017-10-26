@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 1920px;
+    height: 54px;
+    background-color: #00b489;
+}
+.top_one{
+    width: 1191px;
+    height: 54px;
+    margin: 0 auto;
+    margin-left: 400px;
+}
+
+.top_one_left li{
+    list-style: none;
+    float: left;
+    line-height: 54px;
+    margin-left: 16px;
+    width: 81px;
+    height: 54px;
+}
+.top_one_left span{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+.top_one img{
+}
+.top_one_a{
+    width: 80px;
+    height: 34px;
+    padding: 4px 0;
+    margin-top: 6px;
+    margin-right: 16px;
+    float: left;
+}
+.shoye{
+    width: 80px;
+    background-color: #00a880;
+}
+.top_one_input{
+    height: 27px;
+    width: 280px;
+    font-family: "微软雅黑";
+    padding-left: 10px;
+}
+.top_one_right{
+    float: right;
+
+}
+.top_one_right span{
+    width: 81px;
+    text-align: center;
+    color: #fff;
+    padding-left: 18px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.top_one_right li{
+    height: 54px;
+    list-style: none;
+    line-height: 54px;
+    padding-right: 50px;
+}
+.mid{
+    width: 1920px;
+    height: 433px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ .mid img{
+    margin-top: 40px;
+}
+.imd h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+    font-size: 40px;
+    font-family:"微软雅黑";
+} 
+.liebiao{
+    background-color: #f5f5f5;
+}
+.liebiao_one{
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1110px;
+    margin-left: 379.5px;
+    margin-right: 379.5px;
+}
+.liebiao_one h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 8px;
+}
+.liebiao_one_p{
+    font-size: 18px;
+    font-family:"微软雅黑";
+    text-align: center;
+    color: #ccc;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.liebiao_two_div{
+    width: 225px;
+    height: 137px;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+    margin: 10px;
+}
+.liebiao_two_div img{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 75px;
+    padding: 8px;
+}
+.liebiao_two_div p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.h3{
+    font-size: 26px;
+    color: #f00;
+}

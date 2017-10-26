@@ -1,0 +1,9 @@
+$('#c').click(function(){
+    $('p').slideDown();//向下滑动
+})
+$('#c').click(function(){
+    $('p').slideUp();//向上滑动
+})
+$('#c').click(function(){
+    $('p').slideToggle();//向上滑动和向下滑动
+})
