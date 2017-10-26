@@ -23,6 +23,7 @@
     height: 54px;
 }
 .top_one_left span{
+    display: block;
     width: 70px;
     height: 40px;
     text-align: center;
@@ -58,6 +59,7 @@ a{
 
 }
 .top_one_right span{
+    
     width: 81px;
     text-align: center;
     color: #fff;
@@ -73,30 +75,36 @@ a{
 .mid{
     width: 1920px;
     height: 433px;
-    margin-top: 80px;
     text-align: center;
     margin-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
  .mid img{
-    margin-top: 40px;
+     margin-top: 80px;
+     max-height: 300px;
+
 }
-.imd h1{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.mid_h1{
+    width: 100%;
+    line-height: 44px;
+    margin-bottom: 8px;
     letter-spacing: 6px;
     font-size: 40px;
-    font-family:"微软雅黑";
+    font-weight: 300;
+    font-family: Open Sans,open_sans,PingFang SC,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,STXihei,\\534E\6587\7EC6\9ED1,sans-serif;
+    color: #333;
+    text-align: center;
 } 
 .liebiao{
     background-color: #f5f5f5;
+    
 }
 .liebiao_one{
-    padding-top: 100px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1110px;
-    margin-left: 379.5px;
-    margin-right: 379.5px;
+    text-align: center;
+    margin: 0 50px auto;
+    padding: 75px 0 15px 15px;
+    
 }
 .liebiao_one h1{
     text-align: center;
@@ -112,13 +120,22 @@ a{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+.liebiao_two{
+    width: 25%;
+    padding: 10px 20px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
 .liebiao_two_div{
     width: 225px;
     height: 137px;
-    border: 1px solid black;
     float: left;
-    margin: 5px;
-    margin: 10px;
+    box-shadow: 0 2px 4px 1px rgba(0,0,0,.13);
+    padding: 10px;
+}
+.liebiao_two_one{
+    margin-bottom: 12px;
 }
 .liebiao_two_div img{
     margin-top: 20px;
