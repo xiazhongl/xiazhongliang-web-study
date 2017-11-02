@@ -111,6 +111,8 @@ a{
     background-color: #ccc;
     padding: 80px 0px 100px 0px;
     background-image: url(./292920.jpg);
+    margin-left: auto;
+    margin-right: auto;
 }
 .header_three{
     width: 100%;
@@ -199,11 +201,12 @@ a{
 .header_one_div{
     width: 1000px;
     height: 466px;
-    margin: 0px 449.5px 0px 449.5px;
+    margin-left: auto;
+    margin-right: auto;
     padding:0 16px;
 }
 .header_one_div_h1{
-    width: 968px;
+    width: auto;
     height: 43px;
     line-height: 43px;
     font-size: 35px;
@@ -211,10 +214,10 @@ a{
     font-weight: 500;
 }
 .header_one_div_one{
-    width: 218px;
+    width: 210px;
     height: 145px;
     padding: 0 16px;
-        float: left;
+    float: left;
 }
 .header_one_div_one_div{
     width: 218px;
@@ -247,9 +250,10 @@ a{
 .header_three_div{
     width: 960px;
     height: 510px;
-    margin: 0px 469.5px 0px 469.5px;
     padding:0 10px;
     text-align:center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .header_three_div_one{
     width: 220px;
@@ -290,9 +294,10 @@ a{
 .header_four_div{
     width: 1000px;
     height: 562.5px;
-    margin: 40px 449.5px 40px 449.5px;
     padding: 80px 0;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header_four_div_img{
     width: 1000px;
@@ -345,8 +350,9 @@ a{
     width: 978px;
     height: 350px;
     padding: 0 16px;
-    margin: 0 444.5px;
     background-color: rgb(59, 58, 58);
+    margin-left: auto;
+    margin-right: auto;
 }
 .bottom_button{
     width: 100%;
