@@ -22,6 +22,7 @@
 .heat_top_div_input{
     width: 425px;
     height: 20px;
+    padding: 4px 33px 4px 10px;
 }
 .heat_top_div_left{
     float: left;
