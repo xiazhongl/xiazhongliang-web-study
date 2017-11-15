@@ -15,3 +15,6 @@ $('#myButton').on('click', function () {
   var $btn = $(this).button('loading')
   $btn.button('reset')
 })
+$('.carousel').carousel({
+  interval: 500
+})
