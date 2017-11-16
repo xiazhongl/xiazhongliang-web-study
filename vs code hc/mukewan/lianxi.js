@@ -1,3 +1,0 @@
-myFocus.set({
-    id:'picbox'
-})
