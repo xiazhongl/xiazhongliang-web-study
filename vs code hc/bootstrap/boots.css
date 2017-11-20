@@ -1,0 +1,28 @@
+.hove{
+    width: 100%;
+    height: 100%;
+}
+.hove_1{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.hove_1_1_p{
+    font-size: 18px;
+}
+.bor{
+    border: 1px solid #bdbbbb;
+    height: 52px;
+    background-color: #d3d1d1;
+    line-height: 52px;
+}
+.hove_1_1_row{
+    width: 30%;
+    height: 60px;
+}
+.a{
+    margin-bottom: 100px;
+}
+.b{
+    margin-bottom: 20px;
+}

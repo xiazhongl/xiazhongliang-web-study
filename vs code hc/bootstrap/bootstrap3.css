@@ -1,0 +1,31 @@
+
+.have{
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+.navbar{
+    margin: 0 auto;
+    width: 60%;
+    
+}
+.hove_1{
+    margin: 0 auto;
+    width: 60%;
+}
+.hove{
+    height: 332px;
+    width: 100%;
+    background-color: #eeecec;
+}
+.hoke{
+    margin: 0 auto;
+    width: 60%;
+}
+.ll{
+    width: 30%;
+    float: left;margin-right: 20px;
+}
+.nm{
+    height: 220px;
+}
