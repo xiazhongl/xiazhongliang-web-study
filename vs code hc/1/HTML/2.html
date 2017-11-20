@@ -1,0 +1,519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        * {
+            font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        /*a标签样式*/
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        /*设置默认颜色*/
+
+        a:hover {
+            color: #F00;
+        }
+
+        /*悬浮（鼠标经过）时颜色*/
+
+        a:active {
+            color: #000;
+        }
+
+        /*点击时的颜色*/
+
+        /*li 表格样式*/
+
+        li:hover {
+            background-color: #0C3;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        /*加粗字体*/
+
+        #jc {
+
+            font-weight: bold;
+        }
+
+        span {
+            color: #000;
+            display: block;
+            float: left;
+
+        }
+
+        .top {
+
+            background: #090;
+            margin-bottom: 2px;
+
+        }
+
+        .top_1 {
+            height: 30px;
+            line-height: 30px;
+            width: 1230px;
+            margin: 0 auto;
+            /*如需用到此属性必须要给Div设置一个大小*/
+        }
+
+        .w1230 {
+            width: 1230px;
+            height: 85px;
+            margin: 0 auto;
+
+        }
+
+        .top_2 {
+            float: left !important;
+        }
+
+        .top_3 {
+            float: right !important;
+        }
+
+        .top_ip {
+            float: left;
+            margin-left: 2px;
+        }
+
+        .ip_pe {
+            font-size: 15px;
+            color: #333;
+            display: block;
+        }
+
+        .top_dq {
+            float: left;
+            margin-left: 30px;
+        }
+
+        #dq_value {
+            margin-left: 8px;
+
+        }
+
+        .top_dh {
+            float: right;
+
+        }
+
+        .top_login {
+            color: #F00;
+            display: block;
+
+
+        }
+
+        .top_addUser {
+            color: #000;
+            margin-left: 35px;
+            margin-right: 65px;
+            display: block;
+        }
+
+        .ip_ioc {
+
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            float: left;
+            margin-top: 3px;
+
+        }
+
+        .er_kuai_logo {
+
+
+            margin-left: 2px;
+        }
+
+        .er_kuai_logo_img {
+            margin: 0 auto;
+            float: left;
+
+        }
+
+        .er_kuai {
+            border-bottom: #999 1px solid;
+            height: 80px;
+            width: 100%;
+            min-width: 1230px;
+            background-color: #FFF;
+            margin-right: 20px;
+        }
+
+        .img_logo {
+
+            width: 170px;
+            height: 75px;
+        }
+
+
+        /*.coniiet{
+	background-image:url(imgs/shuzi.png);
+	background-repeat:repeat;
+	height:800px;
+	}
+*/
+
+        .er_kuai_fome {
+            clear: none;
+            margin-left: 50px;
+            margin-top: 15px;
+
+        }
+
+        .top_daul {
+
+            float: right;
+        }
+
+        .top_daul li {
+            float: right;
+        }
+
+        .top_daul li.spacer {
+            overflow: hidden;
+            margin: 8px 5px 0;
+            width: 1px;
+            height: 15px;
+            background-color: #000;
+        }
+
+        .top_daul li .dh {
+            padding-left: 6px;
+            padding-right: 6px;
+
+        }
+
+        .er_kuai_leftdiv {
+
+            float: left;
+            margin: 0 auto;
+            height: 85px;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+
+        .gif1 {
+
+            width: 130px;
+            height: 50px;
+        }
+
+        #h109 {
+
+            line-height: 109px;
+        }
+
+        .coniiet {
+            /*让背景图片自动适应百分百填充内容，并且拉动不会损失像素*/
+            background-image: url(./1.jpg);
+            width: 100%;
+            height: 100%;
+            background-size: 100% 100%;
+            position: absolute;
+            background-repeat: no-repeat;
+            /*
+	因为IE8以下不兼容 background-size:100% 100%;  
+	因此在IE8里无法拉伸图片
+	以下代码是为了在IE8以下版本可以兼容*/
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imgs/beijin/index/index_img/a3bb2a8bd0bc7f28d53aa700cac1bbc31.jpg',
+            sizingMethod='scale');
+            -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imgs/beijin/index/index_img/a3bb2a8bd0bc7f28d53aa700cac1bbc31.jpg',
+            sizingMethod='scale');
+        }
+
+        .er_kuai_input {
+            float: left;
+        }
+
+        /* SELECT W/IMAGE */
+
+        select#selectTravelCity {
+            margin-right: 4px;
+            width: 75px;
+            height: 45px;
+            padding: 0.2em 0.4em 0.2em 0.4em;
+            vertical-align: middle;
+            border: 1px solid #e9e9e9;
+            -moz-border-radius: 0.2em;
+            -webkit-border-radius: 0.2em;
+            border-radius: 10px;
+            box-shadow: inset 0 0 3px #a0a0a0;
+
+            -moz-appearance: none;
+            appearance: none;
+            /* sample image from the webinfocentral.com */
+            background: url(http://webinfocentral.com/Images/favicon.ico) 95% / 10% no-repeat #fdfdfd;
+            font-family: Arial, Calibri, Tahoma, Verdana;
+            font-size: 1.1em;
+            color: #000099;
+            cursor: pointer;
+        }
+
+        select#selectTravelCity option {
+            font-size: 1em;
+            padding: 0.2em 0.4em 0.2em 0.4em;
+        }
+
+        select#selectTravelCity option[selected] {
+            font-weight: bold
+        }
+
+        select#selectTravelCity option:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+
+        select#selectTravelCity:hover {
+            color: #101010;
+            border: 1px solid #cdcdcd;
+        }
+
+        select#selectTravelCity:focus {
+            box-shadow: 0 0 2px 1px #404040;
+        }
+
+        /*SELECT W/DOWN-ARROW*/
+
+        select#selectPointOfInterest {
+            width: 185pt;
+            height: 40pt;
+            line-height: 40pt;
+            padding-right: 20pt;
+            text-indent: 4pt;
+            text-align: left;
+            vertical-align: middle;
+            box-shadow: inset 0 0 3px #606060;
+            border: 1px solid #acacac;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            font-family: Arial, Calibri, Tahoma, Verdana;
+            font-size: 18pt;
+            font-weight: 500;
+            color: #000099;
+            cursor: pointer;
+            outline: none;
+        }
+
+        select#selectPointOfInterest option {
+            padding: 4px 10px 4px 10px;
+            font-size: 11pt;
+            font-weight: normal;
+        }
+
+        select#selectPointOfInterest option[selected] {
+            font-weight: bold
+        }
+
+        select#selectPointOfInterest option:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+
+        select#selectPointOfInterest:hover {
+            font-weight: 700;
+        }
+
+        select#selectPointOfInterest:focus {
+            box-shadow: inset 0 0 5px #000099;
+            font-weight: 600;
+        }
+
+        /*LABEL FOR SELECT*/
+
+        label#lblSelect {
+            position: relative;
+            display: inline-block;
+        }
+
+        /*DOWNWARD ARROW (25bc)*/
+
+        label#lblSelect::after {
+            content: "\25bc";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 20pt;
+            line-height: 40pt;
+            vertical-align: middle;
+            text-align: center;
+            background: #000099;
+            color: #fefefe;
+            -moz-border-radius: 0 6px 6px 0;
+            -webkit-border-radius: 0 6px 6px 0;
+            border-radius: 0 6px 6px 0;
+            pointer-events: none;
+        }
+
+        #selectTravelCity option {
+            font-weight: bold;
+        }
+
+        .select_css,
+        .input_css,
+        .button_css {
+            float: left;
+        }
+
+        .kuai_input {
+            height: 40px;
+            border: 2px #CCCCCC solid;
+            border-radius: 10px;
+            width: 250px;
+        }
+
+        .kuai_button {
+            height: 41.9px;
+            border: 2px #CCCCCC solid;
+            border-radius: 10px;
+            width: 80px;
+            font-size: 19px;
+        }
+
+        .coniiet {}
+
+        .coniiet_1 {
+            width: 290px;
+            height: 680px;
+            background-color: rgb(255, 255, 255);
+            float: left;
+            margin-top: 150px;
+            filter: alpha(Opacity=80);
+            -moz-opacity: 0.5;
+            opacity: 0.5;
+            box-shadow: -1px -1px 20px #000;
+            position: relative;
+        }
+
+        .coniiet_2 {
+            width: 900px;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            margin: 0 auto;
+            filter: alpha(Opacity=80);
+            -moz-opacity: 0.5;
+            opacity: 0.5;
+            margin-top: 30px;
+            border: 1px solid #000;
+            box-shadow: -1px -1px 30px #000;
+            position: relative;
+        }
+    </style>
+
+    <body>
+        <!--上方导航栏-->
+        <div class="top">
+            <div class="top_1">
+                <div class="top_2">
+                    <div class="top_ip">
+                        <img class="ip_ioc" src="imgs/dibiao.png" />
+                        <span id="jc">IP地址：</span>
+                        <span class="ip_pe">211.183.423</span>
+                    </div>
+                    <div class="top_dq">
+                        <img class="ip_ioc" src="imgs/dinwei.png" />
+                        <span id="jc">当前位置：</span>
+                        </span>
+                        <span class="ip_pe" id="dq_value">广东省</span>
+                        <span class="ip_pe" id="dq_value">佛山市</span>
+                    </div>
+                </div>
+                <div class="top_3">
+                    <div class="top_dh">
+                        <ul class="top_daul">
+
+                            <li>
+                                <div class="dh">
+                                    <a>我的资料</a>
+                                </div>
+                            </li>
+                            <li class="spacer"></li>
+                            <li>
+                                <div class="dh">
+                                    <a>我的资料</a>
+                                </div>
+                            </li>
+                            <li class="spacer"></li>
+                            <li>
+                                <div class="dh">
+                                    <a>我的资料</a>
+                                </div>
+                            </li>
+                            <li class="spacer"></li>
+                            <li>
+                                <div class="dh">
+                                    <a href="e">我的资料</a>
+                                </div>
+                            </li>
+                            <li class="spacer"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--logo and  搜索-->
+        <div class="er_kuai">
+            <div class="w1230" id="h109">
+                <div class="er_kuai_logo">
+                    <div class="er_kuai_logo_img">
+                        <a>
+                            <img src="imgs/logo2.png" class="img_logo" />
+                        </a>
+                    </div>
+                    <div class="er_kuai_leftdiv">
+                        <a>
+                            <img class="gif1" src="imgs/hy.gif" />
+                        </a>
+                    </div>
+                </div>
+                <div class="er_kuai_input">
+                    <div class="er_kuai_fome">
+                        <form method="post" class="kuai_fome">
+                            <div class="select_css">
+                                <select id="selectTravelCity" title="Select Travel Destination">
+                                    <option>贴吧</option>
+                                    <option>用户</option>
+                                </select>
+                            </div>
+                            <div class="input_css">
+                                <input type="text" class="kuai_input" /> </div>
+                            <div class="button_css">
+                                <button class="kuai_button">搜索</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="er_kuai_right">
+
+                </div>
+            </div>
+        </div>
+        <!--下方大块-->
+        <div class="coniiet">
+            <div class="coniiet_1"></div>
+            <div class="coniiet_2"></div>
+        </div>
+    </body>
+
+</html>

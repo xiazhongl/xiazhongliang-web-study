@@ -1,0 +1,14 @@
+.mian{width: 600px; position: relative; overflow: hidden;}
+.mian .fl{width: 100px;float: left;}
+.mian .fl img{margin-left: 20px;}
+.mian .fr{width: 458px;float: right; padding: 20px; background-color: red; border: 1px solid #000000;}
+.mian .fr p{font-size: 12px; line-height: 25px;}
+.mian span{position: absolute; right: 20px; top: 10px; font-size: 12px;}
+
+.mian1{width: 600px; position: relative; overflow: hidden;}
+.mian1 img{ float: left; margin-left: 20px;}
+.mian1 .fr{width: 458px;float: right; padding: 20px; background-color: red; border: 1px solid #000000;}
+.mian1 .fr p{font-size: 12px; line-height: 25px; }
+.mian1 span{position: absolute; right: 20px; top: 10px; font-size: 12px;}
+
+.mian2{}

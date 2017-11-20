@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*共有*/
+body{ 
+	margin:0; 
+	padding:0; 
+	width:100%; 
+	height:100%;
+	background-color:#000;
+
+}
+/*div居中:先要设定body元素，宽高要固定。*/
+.d1{ 
+	position:absolute; 
+	top:42%; 
+	left:50%; 
+	margin-top:-290px;
+	margin-left:-420px;
+	/*此时宽高都要固定*/
+	width:750px;
+	height:650px;
+	background:#FFF;
+	}
+/*文字标题栏*/
+.d0{ 
+    background-color:#999;
+    text-align:center;
+	float:none;
+	}
+/*标题文字*/
+.s1{
+	font-size:56px;
+    color:#FFF;
+	
+	}
+.s2{
+	font-size:36px;
+	color:#FFF; 
+	width:80px; 
+	height:56px;
+	float:right;
+	margin-right:60px;
+    
+}
+/*超链接a标签4中状态*/
+a:link{ color:#FFF; text-decoration:none;}/*未访问*/
+a:visited{ color:#FFF; text-decoration:none;}/*已访问*/
+a:active{ color:#333; text-decoration:none;}/*以获取焦点*/
+a:hover{ text-decoration:underline;}/*鼠标移进*/
