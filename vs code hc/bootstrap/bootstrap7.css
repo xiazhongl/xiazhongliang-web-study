@@ -1,0 +1,16 @@
+.hove{
+    width: 100%;
+    height: 100%;
+}
+.hove_div{
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+}
+.jumbotron{
+    text-align: center;
+}
+.win{
+    width: 33%;
+    float: left;
+}

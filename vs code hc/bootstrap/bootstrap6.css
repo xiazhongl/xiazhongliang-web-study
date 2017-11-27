@@ -1,3 +1,9 @@
 .left{
     width: 300px;
 }
+.left{
+    float: left;
+    border: 1px solid #000000;
+    background-color: #a8a1a1;
+    padding-top: 20px;
+}
