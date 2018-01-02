@@ -101,19 +101,80 @@ document.getElementById('okj').style.color = '#ffffff'
 function ookkl (id) {
   id.innerHTML = '谢谢！'
 }
+// 点击调用函数
 function mOver (obj) {
   obj.innerHTML = '谢谢'
 }
-
+// 鼠标移入
 function mOut (obj) {
   obj.innerHTML = '把鼠标移到上面'
 }
-
+// 鼠标按下
 function mDown (obj) {
   obj.style.backgroundColor = '#1ec5e5'
   obj.innerHTML = '请释放鼠标按钮'
 }
+// 鼠标松开
 function mUp (obj) {
   obj.style.backgroundColor = 'green'
-  obj.innerHTML = '请释放鼠标按钮'
+  obj.innerHTML = '请点击这里'
+}
+// 添加html元素
+var para = document.createElement('p')
+var node = document.createTextNode('这是新段落。')
+para.appendChild(node)
+var element = document.getElementById('div1')
+element.appendChild(para)
+// 删除html元素
+var parent = document.getElementById('div1')
+var child = document.getElementById('p1')
+parent.removeChild(child)
+// 访问对象的方法
+var message = 'Hello world!'
+var x = message.toUpperCase()
+
+// person = { }
+// person.firstname = 'Bill'
+// person.lastname = 'Gates'
+// person.age = 56
+// person.eyecolor = 'blue'
+// document.write(person.firstname + ' is ' + person.age + ' years old.')
+// person = { firstname: 'John',lastname: 'Doe',age: 50,eyecolor: 'blue'}
+// document.write(person.firstname + ' is ' + person.age + ' years old.')
+
+function person (firstname, lastname, age, eyecolor) {
+  this.firstname = firstname
+  this.lastname = lastname
+  this.age = age
+  this.eyecolor = eyecolor
+}
+myFather = new person('Bill', 'Gates', 56, 'blue')
+
+document.write(myFather.firstname + ' is ' + myFather.age + ' years old.')
+//
+function person (firstname, lastname, age, eyecolor) {
+  this.firstname = firstname
+  this.lastname = lastname
+  this.age = age
+  this.eyecolor = eyecolor
+
+  this.changeName = changeName
+  function changeName (name) {
+    this.lastname = name
+  }
+}
+myMother = new person('Steve', 'Jobs', 56, 'green')
+myMother.changeName('Ballmer')
+document.write(myMother.lastname)
+
+function myFunction () {
+  var x
+  var txt = ''
+  var person = {fname: 'Bill',lname: 'Gates',age: 56}
+
+  for (x in person) {
+    txt = txt + person[x]
+  }
+
+  document.getElementById('asdxzc').innerHTML = txt
 }
