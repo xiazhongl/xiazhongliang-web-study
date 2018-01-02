@@ -60,7 +60,9 @@ carv = ['1', '2', '3', '4']
 for ( var i = 0;i < carv.length;i++) {
   document.write(carv[i] + '</br>')
 }
-function ee () {var e = '', i = 0
+
+function ee () {
+  var x = '', i = 0
   while(i < 5){
     x = x + i + '</br>'
     i++
@@ -105,4 +107,13 @@ function mOver (obj) {
 
 function mOut (obj) {
   obj.innerHTML = '把鼠标移到上面'
+}
+
+function mDown (obj) {
+  obj.style.backgroundColor = '#1ec5e5'
+  obj.innerHTML = '请释放鼠标按钮'
+}
+function mUp (obj) {
+  obj.style.backgroundColor = 'green'
+  obj.innerHTML = '请释放鼠标按钮'
 }
